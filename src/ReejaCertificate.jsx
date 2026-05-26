@@ -1,8 +1,8 @@
-import certificateJpeg from "./assets/certificate.jpg";
-import bhumiPdf from "./assets/certificate.pdf";
+import certificateJpeg from "./assets/certificate.jpeg";
+import reejaPdf from "./assets/certificate.pdf";
 import igniteLogo from "./assets/ignitelogo.png";
 
-const BhumiSoniCertificate = () => {
+const ReejaCertificate = () => {
   return (
     <div className="min-h-screen bg-[#eef3fb] py-6 px-3 sm:py-8 sm:px-4 lg:py-10">
 
@@ -131,7 +131,7 @@ const BhumiSoniCertificate = () => {
                     Student Name
                   </p>
                   <h3 className="text-[18px] sm:text-[22px] lg:text-[28px] font-bold text-[#111827] mt-1">
-                    Bhumi Soni
+                    Reeja Baweja
                   </h3>
                 </div>
 
@@ -231,7 +231,7 @@ const BhumiSoniCertificate = () => {
               </div>
 
               <a
-                href={bhumiPdf}
+                href={reejaPdf}
                 target="_blank"
                 rel="noreferrer"
                 className="bg-white text-black px-3 sm:px-4 lg:px-5 py-2 sm:py-3 rounded-lg sm:rounded-xl font-semibold text-xs sm:text-sm flex-shrink-0 whitespace-nowrap hover:bg-gray-100 transition"
@@ -261,8 +261,8 @@ const BhumiSoniCertificate = () => {
                 Open Certificate
               </a>
               <a
-                href={bhumiPdf}
-                download="Bhumi_Soni_Certificate.pdf"
+                href={reejaPdf}
+                download="Reeja_Baweja_Certificate.pdf"
                 className="bg-[#e5e7eb] hover:bg-[#d1d5db] text-gray-800 px-6 py-3 rounded-xl font-semibold text-sm transition-colors text-center inline-block cursor-pointer"
               >
                 Download PDF
@@ -277,4 +277,4 @@ const BhumiSoniCertificate = () => {
   );
 };
 
-export default BhumiSoniCertificate;
+export default ReejaCertificate;
